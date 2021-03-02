@@ -299,6 +299,8 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 <hr/>
 {% endif %}
 
+{% comment %}
+#### Temporarily comment-out survey until we get it set up ####
 
 {% comment %}
 SURVEYS - DO NOT EDIT SURVEY LINKS
@@ -309,6 +311,8 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
 <p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 
 <hr/>
+
+{% endcomment %}
 
 
 {% comment %}
