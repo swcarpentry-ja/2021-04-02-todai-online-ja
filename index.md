@@ -172,7 +172,7 @@ Modify the block below if there are any special requirements.
     参加者は、管理者権限を持つMac/Linux/Windows OSを搭載した
     コンピュータ（タブレットやChromebookなどではなく）にアクセスできる必要があります。
   {% endif %}
-  いくつかの特定のソフトウェアパッケージ（ <a href="#setup">下記のリスト</a>）をインストールしてください。
+  いくつかの特定のソフトウェアパッケージ（ <a href="#setup">下部のリスト</a>）をインストールしてください。
 </p>
 
 {% comment %}
@@ -374,8 +374,6 @@ please preview your site before committing, and make sure to run
   ライブラリー・カーペントリー
   {% endif %}
   のワークショップに参加するためには、
-  you will need access to the software described below.
-  In addition, you will need an up-to-date web browser.
   以下のソフトウェアにアクセスできる必要があります。
   さらに、最新のWebブラウザが必要になります。
 </p>
