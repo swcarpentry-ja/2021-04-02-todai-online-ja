@@ -140,8 +140,8 @@ address.
 </p>
 {% elsif online == "true_private" %}
 <p id="where">
-  <strong>Where:</strong> This training will take place online.
-  The instructors will provide you with the information you will need to connect to this meeting.
+  <strong>開催場所:</strong> このトレーニングはオンラインで実施されます。
+  このミーティングに接続するために必要な情報は、講師から伝えられます。
 </p>
 {% endif %}
 
@@ -164,15 +164,15 @@ SPECIAL REQUIREMENTS
 Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong>
+  <strong>参加条件:</strong>
   {% if online == "false" %}
-    Participants must bring a laptop with a
-    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
+    参加者は、管理者権限を持つMac/Linux/Windows OSを搭載した
+    ノートパソコン（タブレットやChromebookなどではなく）を持参する必要があります。
   {% else %}
-    Participants must have access to a computer with a
-    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
+    参加者は、管理者権限を持つMac/Linux/Windows OSを搭載した
+    コンピュータ（タブレットやChromebookなどではなく）にアクセスできる必要があります。
   {% endif %}
-  They should have a few specific software packages installed (listed <a href="#setup">below</a>).
+  いくつかの特定のソフトウェアパッケージ（ <a href="#setup">下記のリスト</a>）をインストールしてください。
 </p>
 
 {% comment %}
@@ -182,27 +182,25 @@ Modify the block below if there are any barriers to accessibility or
 special instructions.
 {% endcomment %}
 <p id="accessibility">
-  <strong>Accessibility:</strong>
+  <strong>アクセシビリティ:</strong>
 {% if online == "false" %}
-  We are committed to making this workshop
-  accessible to everybody. The workshop organizers have checked that:
+  私たちは、このワークショップに誰もがアクセスできるようにすることを約束します。
+  ワークショップの主催者は次のことを確認しています：
 </p>
 <ul>
-  <li>The room is wheelchair / scooter accessible.</li>
-  <li>Accessible restrooms are available.</li>
+  <li>部屋は車椅子 / スクーターでのアクセスが可能です。</li>
+  <li>バリアフリーのトイレがあります。</li>
 </ul>
 <p>
-  Materials will be provided in advance of the workshop and
-  large-print handouts are available if needed by notifying the
-  organizers in advance.  If we can help making learning easier for
-  you (e.g. sign-language interpreters, lactation facilities) please
-  get in touch (using contact details below) and we will
-  attempt to provide them.
+  事前に主催者に連絡することで、必要に応じて事前に資料を配布したり、
+  拡大印刷した配布資料を用意したりしています。 
+  学習を容易にするためのお手伝い（例：手話通訳者や授乳施設など）が必要な場合は、
+  下記連絡先までご連絡ください。
 </p>
 {% else %}
-  We are dedicated to providing a positive and accessible learning environment for all. Please
-  notify the instructors in advance of the workshop if you require any accommodations or if there is
-  anything we can do to make this workshop more accessible to you.
+  私たちは、すべての人にとってポジティブでアクセスしやすい学習環境を提供することに力を注いでいます。
+  宿泊が必要な場合や、このワークショップをより利用しやすくするためにできることがあれば、
+  事前に講師にお知らせください。
 </p>
 {% endif %}
 
@@ -212,12 +210,12 @@ CONTACT EMAIL ADDRESS
 Display the contact email address set in the configuration file.
 {% endcomment %}
 <p id="contact">
-  <strong>Contact:</strong>
-  Please email
+  <strong>連絡先:</strong>
+  お問い合わせは
   {% if page.email %}
   {% for email in page.email %}
   {% if forloop.last and page.email.size > 1 %}
-  or
+  または
   {% else %}
   {% unless forloop.first %}
   ,
@@ -226,15 +224,16 @@ Display the contact email address set in the configuration file.
   <a href='mailto:{{email}}'>{{email}}</a>
   {% endfor %}
   {% else %}
-  to-be-announced
+  未定
   {% endif %}
-  for more information.
+  にメールをお送りください。
 </p>
 
 <p id="roles">
-  <strong>Roles:</strong>
-  To learn more about the roles at the workshop (who will be doing what),
-  refer to <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">our Workshop FAQ</a>.
+  <strong>役割:</strong>
+  ワークショップでの役割（誰が何をするのか）を知るには、
+  <a href="https://carpentries.org/workshop_faq/#what-are-the-roles-of-everyone-participating-in-a-workshop">ワークショップ
+  のFAQ</a>をご参照ください。
 </p>
 
 {% comment %}
@@ -266,12 +265,13 @@ CODE OF CONDUCT
 <h2 id="code-of-conduct">Code of Conduct</h2>
 
 <p>
-Everyone who participates in Carpentries activities is required to conform to the <a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">Code of Conduct</a>. This document also outlines how to report an incident if needed.
+カーペントリーズの活動に参加するすべての人は、<a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">行動規範</a>を遵守しなければなりません。 
+この文書には、必要に応じてインシデントが発生した場合の報告方法の概要も記載されています。
 </p>
 
 <p class="text-center">
   <a href="https://goo.gl/forms/KoUfO53Za3apOuOK2">
-    <button type="button" class="btn btn-info">Report a Code of Conduct Incident</button>
+    <button type="button" class="btn btn-info">行動規範のインシデントの報告/button>
   </a>
 </p>
 <hr/>
@@ -291,10 +291,11 @@ Note we also have a CodiMD (the open-source version of HackMD)
 available at https://codimd.carpentries.org
 {% endcomment %}
 {% if page.collaborative_notes %}
-<h2 id="collaborative_notes">Collaborative Notes</h2>
+<h2 id="collaborative_notes">コラボレイティブ・ノート</h2>
 
 <p>
-We will use this <a href="{{ page.collaborative_notes }}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
+この<a href="{{ page.collaborative_notes }}">コラボレイティブ・ドキュメント</a>を使って、
+チャット、メモの作成、URLとコードの一部の共有を行います。
 </p>
 <hr/>
 {% endif %}
@@ -305,10 +306,10 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 {% comment %}
 SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
-<h2 id="surveys">Surveys</h2>
-<p>Please be sure to complete these surveys before and after the workshop.</p>
-<p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
-<p><a href="{{ site.post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
+<h2 id="surveys">アンケート</h2>
+<p>ワークショップの前後に、これらのアンケートに必ずお答えください。</p>
+<p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">ワークショップ前のアンケート</a></p>
+<p><a href="{{ site.post_survey }}{{ site.github.project_title }}">ワークショップ後のアンケート</a></p>
 
 <hr/>
 
@@ -362,25 +363,26 @@ please preview your site before committing, and make sure to run
 'tools/check' as well.
 {% endcomment %}
 
-<h2 id="setup">Setup</h2>
+<h2 id="setup">セットアップ</h2>
 
 <p>
-  To participate in a
   {% if site.carpentry == "swc" %}
-  Software Carpentry
+  ソフトウェア・カーペントリー
   {% elsif site.carpentry == "dc" %}
-  Data Carpentry
+  データ・カーペントリー
   {% elsif site.carpentry == "lc" %}
-  Library Carpentry
+  ライブラリー・カーペントリー
   {% endif %}
-  workshop,
+  のワークショップに参加するためには、
   you will need access to the software described below.
   In addition, you will need an up-to-date web browser.
+  以下のソフトウェアにアクセスできる必要があります。
+  さらに、最新のWebブラウザが必要になります。
 </p>
 <p>
-  We maintain a list of common issues that occur during installation as a reference for instructors
-  that may be useful on the
-  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
+  講師向けの参考資料として、
+  <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">
+  「構成の問題と解決策」のwikiページ</a>上で、インストール中に発生しがちな問題のリストを管理しています。
 </p>
 
 {% comment %}
