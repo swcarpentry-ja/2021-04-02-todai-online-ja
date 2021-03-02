@@ -271,7 +271,7 @@ CODE OF CONDUCT
 
 <p class="text-center">
   <a href="https://goo.gl/forms/KoUfO53Za3apOuOK2">
-    <button type="button" class="btn btn-info">行動規範のインシデントの報告/button>
+    <button type="button" class="btn btn-info">行動規範のインシデントの報告</button>
   </a>
 </p>
 <hr/>
