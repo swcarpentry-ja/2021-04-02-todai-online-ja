@@ -3,14 +3,14 @@ layout: workshop      # DON'T CHANGE THIS.
 # More detailed instructions (including how to fill these variables for an
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
-venue: "The University of Tokyo"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
+venue: "東京大学"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
 address: "online"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "ja"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "ja"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the
 latitude: "35.689487"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "139.691711"       # decimal longitude of the workshop venue (use https://www.latlong.net)
-humandate: "April 2, 7, 9, 14, 16, 2021"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "10:00 am - 12:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+humandate: "2021年 4月2日, 7日, 9日, 14日, 16日"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "10:00 - 12:00"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2021-04-02      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2021-04-06        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Joel Nitta", "Riku Takei"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
@@ -76,7 +76,7 @@ displayed if the 'eventbrite' field in the header is not set.
 {% endif %}
 
 
-<h2 id="general">General Information</h2>
+<h2 id="general">基本情報</h2>
 
 {% comment %}
 INTRODUCTION
@@ -193,7 +193,7 @@ special instructions.
 </ul>
 <p>
   事前に主催者に連絡することで、必要に応じて事前に資料を配布したり、
-  拡大印刷した配布資料を用意したりしています。 
+  拡大印刷した配布資料を用意したりしています。
   学習を容易にするためのお手伝い（例：手話通訳者や授乳施設など）が必要な場合は、
   下記連絡先までご連絡ください。
 </p>
@@ -262,10 +262,10 @@ Edit the text to match who can attend the workshop. For instance:
 {% comment%}
 CODE OF CONDUCT
 {% endcomment %}
-<h2 id="code-of-conduct">Code of Conduct</h2>
+<h2 id="code-of-conduct">行動規範</h2>
 
 <p>
-カーペントリーズの活動に参加するすべての人は、<a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">行動規範</a>を遵守しなければなりません。 
+カーペントリーズの活動に参加するすべての人は、<a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">行動規範</a>を遵守しなければなりません。
 この文書には、必要に応じてインシデントが発生した場合の報告方法の概要も記載されています。
 </p>
 
@@ -338,7 +338,7 @@ of code below the Schedule `<h2>` header below with
 `{% include custom-schedule.html %}`.
 {% endcomment %}
 
-<h2 id="schedule">Schedule</h2>
+<h2 id="schedule">スケジュール</h2>
 
 {% if site.carpentry == "swc" %}
 {% include swc/schedule.html %}
