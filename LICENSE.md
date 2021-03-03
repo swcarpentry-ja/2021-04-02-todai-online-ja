@@ -1,8 +1,6 @@
 ---
 layout: page
 title: "ライセンス"
-root: .
-permalink: /ja/LICENSE/
 ---
 ## 教材
 
