@@ -10,7 +10,7 @@ language: "ja"     # lowercase two-letter ISO language code such as "fr" (see ht
 latitude: "35.689487"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "139.691711"       # decimal longitude of the workshop venue (use https://www.latlong.net)
 humandate: "2021年 4月2日, 7日, 9日, 14日, 16日"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "10:00 - 12:00"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+humantime: "10:00 - 12:00 (JST)"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2021-04-02      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2021-04-06        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["ニッタ ジョエル", "武井 陸良"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
@@ -300,8 +300,6 @@ available at https://codimd.carpentries.org
 <hr/>
 {% endif %}
 
-{% comment %}
-#### Temporarily comment-out survey until we get it set up ####
 
 {% comment %}
 SURVEYS - DO NOT EDIT SURVEY LINKS
@@ -309,12 +307,11 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
 <h2 id="surveys">アンケート</h2>
 <p>ワークショップの前後に、これらのアンケートに必ずお答えください。</p>
 <p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">ワークショップ前のアンケート</a></p>
+{% comment %}
+#### Temporarily comment-out post-workshop survey until we get it set up ####
 <p><a href="{{ site.post_survey }}{{ site.github.project_title }}">ワークショップ後のアンケート</a></p>
-
-<hr/>
-
 {% endcomment %}
-
+<hr/>
 
 {% comment %}
 SCHEDULE
