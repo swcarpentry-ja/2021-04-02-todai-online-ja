@@ -347,6 +347,10 @@ of code below the Schedule `<h2>` header below with
 {% include lc/schedule.html %}
 {% endif %}
 
+<p>以上のスケージュルは目安で、実際の内容とは異なることがあります。</p>
+
+<p>ワークショップの教材は<a href = "https://swcarpentry-ja.github.io/r-novice-gapminder/ja/">こちら</a>から見られます。</p>
+
 <hr/>
 
 
