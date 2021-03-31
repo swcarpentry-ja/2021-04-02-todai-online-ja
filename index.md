@@ -267,12 +267,12 @@ CODE OF CONDUCT
 <h2 id="code-of-conduct">行動規範</h2>
 
 <p>
-カーペントリーズの活動に参加するすべての人は、<a href="https://docs.carpentries.org/topic_folders/policies/code-of-conduct.html">行動規範</a>を遵守しなければなりません。
+カーペントリーズの活動に参加するすべての人は、<a href="https://carpentries-coc.readthedocs.io/ja/latest/topic_folders/policies/code-of-conduct.html">行動規範</a>を遵守しなければなりません。
 この文書には、必要に応じてインシデントが発生した場合の報告方法の概要も記載されています。
 </p>
 
 <p class="text-center">
-  <a href="https://goo.gl/forms/KoUfO53Za3apOuOK2">
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSeYqO37p0P-5JsEoF-E_edpZM5iRdFxWHTFqILo6LzqGS33YQ/viewform?fbzx=-8556883400541824673">
     <button type="button" class="btn btn-info">行動規範のインシデントの報告</button>
   </a>
 </p>
