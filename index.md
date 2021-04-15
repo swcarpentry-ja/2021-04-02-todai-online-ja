@@ -309,10 +309,7 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
 <h2 id="surveys">アンケート</h2>
 <p>ワークショップの前後に、これらのアンケートに必ずお答えください。</p>
 <p><a href="{{ site.pre_survey }}{{ site.github.project_title }}">ワークショップ前のアンケート</a></p>
-{% comment %}
-#### Temporarily comment-out post-workshop survey until we get it set up ####
 <p><a href="{{ site.post_survey }}{{ site.github.project_title }}">ワークショップ後のアンケート</a></p>
-{% endcomment %}
 <hr/>
 
 {% comment %}
